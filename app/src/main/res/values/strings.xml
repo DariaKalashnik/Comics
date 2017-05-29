@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Comics shop</string>
+    <string name="text">"Become a part of the Heroes` World"</string>
+    <string name="text_1">"We have everything: from the Harley Quinn`s bat to the Captain America's shield.
+        \nOur shop is waiting exactly for YOU, - a real comics fan!"</string>
+    <string name="contacts">"Contacts"</string>
+    <string name="phone"><u>+36 54 677 2324\n+36 55 533 2320</u></string>
+    <string name="mail">comicsshop@gmail.com</string>
+    <string name="site"><u>www.comicsworld.com</u></string>
+    <string name="hours">"Monday – Friday:       9:00 – 20:00\nSaturday - Sunday:    closed" </string>
+    <string name="place">"Péterfia u. 18., Debrecen, Hungary\n"</string>
+    <string name="action_settings">Catalog</string>
+</resources>

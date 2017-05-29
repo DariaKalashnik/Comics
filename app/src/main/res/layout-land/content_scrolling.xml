@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.comics.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <RelativeLayout
+        android:id="@+id/up"
+        android:layout_width="@dimen/match"
+        android:layout_height="@dimen/match">
+
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingBottom="@dimen/space_2"
+            android:paddingEnd="@dimen/text_padding_1"
+            android:paddingStart="@dimen/text_padding"
+            android:paddingTop="@dimen/padding_top"
+            android:text="@string/text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_2" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/wrap"
+            android:layout_height="@dimen/image_values"
+            android:layout_alignEnd="@id/intro"
+            android:layout_marginEnd="@dimen/image_margin"
+            android:rotation="18"
+            android:src="@drawable/icon"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="@dimen/match"
+            android:layout_height="@dimen/match"
+            android:layout_below="@id/intro"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="@dimen/text_padding"
+            android:paddingRight="@dimen/text_padding"
+            android:paddingTop="@dimen/padding_8"
+            android:text="@string/text_1"
+            android:textColor="@color/text"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/contacts"
+            android:layout_width="@dimen/match"
+            android:layout_height="@dimen/match"
+            android:layout_below="@id/about"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/space_1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/contacts"
+            android:textColor="@color/purple_1"
+            android:textSize="@dimen/text_size_2" />
+
+        <ImageView
+            android:id="@+id/mail"
+            android:layout_width="@dimen/icons"
+            android:layout_height="@dimen/icons"
+            android:layout_below="@id/contacts"
+            android:layout_marginStart="@dimen/text_padding"
+            android:src="@drawable/mail"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="@dimen/icons"
+            android:layout_height="@dimen/icons"
+            android:layout_below="@id/mail"
+            android:layout_marginStart="@dimen/text_padding"
+            android:paddingTop="@dimen/padding_8"
+            android:src="@drawable/call"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/web"
+            android:layout_width="@dimen/icons"
+            android:layout_height="@dimen/icons"
+            android:layout_below="@id/call"
+            android:layout_marginStart="@dimen/text_padding"
+            android:paddingTop="@dimen/padding_8"
+            android:src="@drawable/globe"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/time"
+            android:layout_width="@dimen/icons"
+            android:layout_height="@dimen/icons"
+            android:layout_below="@id/web"
+            android:layout_marginStart="@dimen/text_padding"
+            android:paddingTop="@dimen/padding_8"
+            android:src="@drawable/calendar"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/place"
+            android:layout_width="@dimen/icons"
+            android:layout_height="@dimen/icons"
+            android:layout_below="@id/time"
+            android:layout_marginStart="@dimen/text_padding"
+            android:paddingTop="@dimen/padding_8"
+            android:src="@drawable/compass"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="@dimen/match"
+            android:layout_height="@dimen/match"
+            android:layout_below="@id/contacts"
+            android:layout_marginStart="@dimen/left"
+            android:layout_marginTop="@dimen/text_padding"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/mail"
+            android:textColor="@color/text"
+            android:textSize="@dimen/text_size_3" />
+
+        <TextView
+            android:layout_width="@dimen/match"
+            android:layout_height="@dimen/match"
+            android:layout_below="@id/mail"
+            android:layout_marginStart="@dimen/left"
+            android:layout_marginTop="@dimen/padding_8"
+            android:autoLink="phone"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/phone"
+            android:textColor="@color/text"
+            android:textColorLink="@color/purple_1"
+            android:textSize="@dimen/text_size_3" />
+
+        <TextView
+            android:layout_width="@dimen/match"
+            android:layout_height="@dimen/match"
+            android:layout_below="@id/call"
+            android:layout_marginStart="@dimen/left"
+            android:layout_marginTop="@dimen/space_between_1"
+            android:autoLink="web"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/site"
+            android:textColor="@color/text"
+            android:textColorLink="@color/purple_1"
+            android:textSize="@dimen/text_size_3" />
+
+        <TextView
+            android:layout_width="@dimen/match"
+            android:layout_height="@dimen/match"
+            android:layout_below="@id/web"
+            android:layout_marginStart="@dimen/left"
+            android:layout_marginTop="@dimen/space_between_2"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/hours"
+            android:textColor="@color/text"
+            android:textSize="@dimen/text_size_3" />
+
+        <TextView
+            android:layout_width="@dimen/match"
+            android:layout_height="@dimen/match"
+            android:layout_below="@id/time"
+            android:layout_marginStart="@dimen/left"
+            android:layout_marginTop="@dimen/space_between_1"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/place"
+            android:textColor="@color/text"
+            android:textSize="@dimen/text_size_3" />
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

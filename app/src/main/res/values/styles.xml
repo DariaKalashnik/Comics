@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MainImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/comics</item>
+    </style>
+
+    <style name="PurpleText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/purple_1</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:paddingBottom">@dimen/space_2</item>
+        <item name="android:paddingEnd">@dimen/text_padding_1</item>
+        <item name="android:paddingStart">@dimen/text_padding</item>
+        <item name="android:paddingTop">@dimen/padding_top</item>
+        <item name="android:text">@string/text</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_2</item>
+    </style>
+
+    <style name="WowImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/image_values</item>
+        <item name="android:layout_marginStart">@dimen/wow</item>
+        <item name="android:layout_marginTop">@dimen/image_margin</item>
+        <item name="android:rotation">18</item>
+        <item name="android:src">@drawable/icon</item>
+    </style>
+
+    <style name="Description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_below">@id/intro</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:paddingLeft">@dimen/text_padding</item>
+        <item name="android:paddingRight">@dimen/text_padding</item>
+        <item name="android:paddingTop">@dimen/padding_8</item>
+        <item name="android:text">@string/text_1</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="Contacts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_below">@id/about</item>
+        <item name="android:layout_marginTop">@dimen/space_1</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:text">@string/contacts</item>
+        <item name="android:textColor">@color/purple_1</item>
+        <item name="android:textSize">@dimen/text_size_2</item>
+    </style>
+
+    <style name="Icons">
+        <item name="android:layout_width">@dimen/icons</item>
+        <item name="android:layout_height">@dimen/icons</item>
+        <item name="android:layout_marginStart">@dimen/text_padding</item>
+    </style>
+
+    <style name="Icons.below">
+        <item name="android:paddingTop">@dimen/padding_8</item>
+    </style>
+
+    <style name="IconsText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/left</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
