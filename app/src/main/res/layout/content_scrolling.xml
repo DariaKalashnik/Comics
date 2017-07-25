@@ -13,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
         <TextView
             android:id="@+id/intro"
             style="@style/PurpleText" />
@@ -67,40 +66,34 @@
             tools:ignore="ContentDescription" />
 
         <TextView
-            style="@style/IconsText"
+            style="@style/TextViewStyle"
             android:layout_below="@id/contacts"
             android:layout_marginTop="@dimen/text_padding"
             android:text="@string/mail" />
 
         <TextView
-            style="@style/IconsText"
+            style="@style/TextViewStyle"
             android:layout_below="@id/mail"
             android:layout_marginTop="@dimen/padding_8"
             android:autoLink="phone"
-            android:text="@string/phone"
-            android:textColorLink="@color/purple_1" />
+            android:text="@string/phone" />
 
         <TextView
-            style="@style/IconsText"
+            style="@style/TextViewStyle"
             android:layout_below="@id/call"
-            android:layout_marginTop="@dimen/space_between_1"
             android:autoLink="web"
-            android:text="@string/site"
-            android:textColorLink="@color/purple_1" />
+            android:text="@string/site" />
 
         <TextView
-            style="@style/IconsText"
+            style="@style/TextViewStyle"
             android:layout_below="@id/web"
             android:layout_marginTop="@dimen/space_between_2"
             android:text="@string/hours" />
 
         <TextView
-            style="@style/IconsText"
+            style="@style/TextViewStyle"
             android:layout_below="@id/time"
-            android:layout_marginTop="@dimen/space_between_1"
             android:text="@string/place" />
 
     </RelativeLayout>
-
-
 </android.support.v4.widget.NestedScrollView>

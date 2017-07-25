@@ -8,6 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -31,7 +35,7 @@
         <item name="android:paddingStart">@dimen/text_padding</item>
         <item name="android:paddingTop">@dimen/padding_top</item>
         <item name="android:text">@string/text</item>
-        <item name="android:color">@color/white</item>
+        <item name="android:textColor">@color/white</item>
         <item name="android:textSize">@dimen/text_size_2</item>
     </style>
 
@@ -42,6 +46,12 @@
         <item name="android:layout_marginTop">@dimen/image_margin</item>
         <item name="android:rotation">18</item>
         <item name="android:src">@drawable/icon</item>
+    </style>
+
+    <style name="WowImage.Land">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignEnd">@id/intro</item>
+        <item name="android:layout_marginEnd">@dimen/image_margin</item>
     </style>
 
     <style name="Description">
@@ -79,17 +89,14 @@
         <item name="android:paddingTop">@dimen/padding_8</item>
     </style>
 
-    <style name="IconsText">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="TextViewStyle" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:layout_marginStart">@dimen/left</item>
+        <item name="android:layout_marginTop">@dimen/marginTop_17</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
-        <item name="android:textSize">@dimen/text_size_3</item>
         <item name="android:textColor">@color/text</item>
+        <item name="android:textColorLink">@color/purple_1</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
     </style>
-
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
 </resources>
